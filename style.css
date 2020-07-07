@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+}
+*{
+    border: solid;
+}
+.title{
+    display:flex;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+h2,p{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
